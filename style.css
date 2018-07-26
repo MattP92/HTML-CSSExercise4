@@ -1,0 +1,50 @@
+section{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap; 
+    
+}
+
+.box{
+    display: flex;
+    width: 50%;
+    height: 33.33%;
+    box-sizing: border-box;
+    border: 1px solid rgb(0,0,0);
+    font-size: 40pt; 
+    align-items: center; 
+    justify-content: center;
+    text-shadow: 3px 3px 2px rgba(150,150,150,1);
+    color: white;
+}
+
+.red{
+    background-color: #f44336;
+}
+
+.orange{
+    background-color: #FF9800;
+}
+
+.yellow{
+    background-color: #FFEB3B;
+}
+
+.green{
+    background-color: #8BC34A;
+}
+
+.blue{
+    background-color: #2196F3;
+}
+
+.purple{
+    background-color: #9C27B0; 
+}
+
+@media only screen and (min-width:600px){
+.box{
+    width: 33.33%;
+    height: 50%;
+}
+}
